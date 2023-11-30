@@ -1,0 +1,128 @@
+html {
+    font-family: 'Poiret One', sans-serif;
+scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+a {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    opacity: 100%;
+    margin-inline: 2rem;
+    font-family: 'Spirax', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(84,0,174, 0.4);
+    
+    text-align: center;
+    padding: 20px;
+
+}
+
+.background {
+    position: relative;
+    height: 300vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+img {
+   
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: red;
+    font-family: 'Spirax', sans-serif;
+    font-size: 4rem;
+   
+}
+
+p {
+    position: absolute;
+    color: whitesmoke;
+ 
+    
+}
+.info{
+    background-color: rgba(255,0,0, 0.8);
+    min-width: 55%;
+    padding: 0.5rem;
+}
+
+.container {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    column-count: 2;
+    
+column-gap: 220px; 
+ 
+    display: grid;
+    grid-template: 'menu price';
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px 40px;
+    white-space: nowrap;
+    
+}
+
+.menu{
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin:0 ;
+    
+}
+
+.price {
+    position: relative;
+    text-align: right;
+    padding: 0;
+    margin:0 ;
+}
+
+.left {
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.right {
+    top: 47%;
+    left: 55%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    overflow: hidden;
+}
+
+section {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
