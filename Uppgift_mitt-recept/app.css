@@ -1,0 +1,63 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+body{
+  text-align: center;
+justify-content: center;
+background-color: rgb(226, 226, 226);
+z-index: -2;
+}
+
+header {
+ margin: 100px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+li {
+  text-align: left;
+}
+
+.container{
+  container-type: inline-size;
+  container-name: recipe;
+  margin: 50px 100px;
+  box-shadow: 0 10px 12px 4px rgba(0,0,0,0.2);
+  width: 700px; 
+  justify-content: center;
+  align-self: center;
+  display: inline-block;
+  background-color: white;
+}
+h1 {
+ 
+  background-color: rgba(0,0,0,0.7);
+  display:inline ;
+  padding: 20px 20px;
+  color: whitesmoke;
+}
+
+h1:hover{
+  
+  font-size: 3rem;
+  background-color: aqua;
+  padding: 10px;
+  z-index: 2;
+
+}
+
+.box {
+  top: 12%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+
+}
